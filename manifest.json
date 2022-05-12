@@ -28,6 +28,7 @@
     ],
     "optional_permissions": [
         "https://app.hubspot.com/*",
+        "https://app-eu1.hubspot.com/*"
         "https://app.hubspotqa.com/*",
         "https://local.hubspot.com/*",
         "https://local.hubspotqa.com/*"
@@ -41,7 +42,7 @@
         "js": ["jquery-3.2.1.min.js", "design-manager.js"],
         "css": ["hsDarkIde.css"],
         "document_idle": "document_start",
-        "matches": ["https://local.hubspot.com/*", "https://local.hubspotqa.com/*","https://app.hubspot.com/*", "https://app.hubspotqa.com/*","https://login.hubspot.com/*"]
+        "matches": ["https://local.hubspot.com/*", "https://local.hubspotqa.com/*","https://app.hubspot.com/*", "https://app-eu1.hubspot.com/*", "https://app.hubspotqa.com/*","https://login.hubspot.com/*"]
     }],
     "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
     "options_page": "options.html",
